@@ -1,9 +1,25 @@
 <template>
-  <div id="app">
+  <v-app id="app">
     <router-view/>
-  </div>
+  </v-app>
+   
 </template>
 
-<style>
+<script>
 
+export default {
+  name: 'App',
+
+  data: () => ({
+    //
+  }),
+};
+</script>
+
+<style>
+#app {
+  background: url('C:/Users/MehmetPazar/Desktop/WorkShop/akwel-automotive-tracking-system/src/assets/loginPageBackground.jpg')
+    no-repeat center center fixed;
+  background-size: cover;
+}
 </style>
